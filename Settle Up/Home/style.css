@@ -1,0 +1,115 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FAEED1;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #607274;
+    margin-top: 0.8px;
+    border: 1px solid #607274;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+}
+
+h1 {
+    margin-left: 10px; /* Adjust the value as needed */
+}
+.first{
+  width: 100%;
+  height: 500px;
+  display: flex;
+ justify-content: space-between;
+
+}
+
+button  {
+    padding: 10px 10px;
+    margin-right: 10px;
+    background-color: #B2A59B;
+    border-radius: 10px;
+    font-weight: 550;
+    font-size: large;
+
+    margin-top: 10px;
+}
+
+button:hover {
+    padding: 11px 11px;
+}
+
+.hamburg {
+    font-weight: 800;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.hamburg:hover {
+    background-color: rgba(7, 7, 7, 0.677);
+    color: white;
+    border: 1px solid #607274;
+    border-radius: 5px;
+}
+.group-details {
+    width: 20%;
+    height: 300px;
+    background-color:white ;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: 1px solid black;
+    border-radius: 20%;
+    box-shadow: 10px 10px 20px rgba(15, 14, 14, 0.4), inset 0 0 10px rgba(16, 16, 16, 0.4);
+}
+.main{
+    width: 30%;
+    height: 100%;
+    background-color:white;
+    margin-top: 150px;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(15, 14, 14, 0.4), inset 0 0 10px rgba(16, 16, 16, 0.4);
+}
+.row{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    border: 0.3px solid black;
+    
+}
+#search{
+    width: 100%;
+    height: 40px;
+    color: black;
+    border-radius: 5px;
+    background-color: aliceblue;
+
+}
+.search-container {
+    position: relative;
+  }
+  
+  #search {
+    padding-right: 30px; /* Adjust the padding based on the icon size and positioning */
+  }
+  
+  .fa-magnifying-glass {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust the right distance based on your design */
+    transform: translateY(-50%);
+  }
+  
